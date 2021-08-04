@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Design Task | UXF WebGL Experiment</title>
+    <title>JetEngineBracket_Design_FixedRes | UXF WebGL Experiment</title>
     <link rel="stylesheet" href="./Template/style.css" />
     <script src="Build/UnityLoader.js"></script>
 
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <h1>Design Task</h1>
+    <h1>JetEngineBracket_Design_FixedRes</h1>
 
     <div class="centered" style="width: 960px;">
         <!-- Edit the description field in Unity WebGL Player Settings -->
@@ -38,7 +38,7 @@
         </div>
 
         <!-- If you do not care about fullscreen, delete the below div -->
-        <!--<div id="fullscreen-message" style="display: none;">
+        <div id="fullscreen-message" style="display: none;">
             <div class="fullscreen-message-inner">
                 <p>
                     You must run the experiment in Fullscreen. Please press the button below to play.
@@ -54,7 +54,7 @@
                     </button>
                 </p>
             </div>
-        </div> -->
+        </div>
     </div>
 
     <!-- Unity Container -->
@@ -74,8 +74,8 @@
                 const loader = document.getElementById("loader");
                 loader.remove();
 
-                //const fsMessage = document.getElementById("fullscreen-message");
-                //fsMessage.style.display = "block";
+                const fsMessage = document.getElementById("fullscreen-message");
+                fsMessage.style.display = "block";
             }
         }
 
