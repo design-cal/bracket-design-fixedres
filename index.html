@@ -38,7 +38,23 @@
         </div>
 
         <!-- If you do not care about fullscreen, delete the below div -->
-        
+        <div id="fullscreen-message" style="display: none;">
+            <div class="fullscreen-message-inner">
+                <p>
+                    You must run the experiment in Fullscreen. Please press the button below to play.
+                </p>
+                <p>
+                    <button class="action" onclick="openFullscreen();">
+                        <div class="text">
+                            Fullscreen
+                        </div>
+                        <svg id="i-fullscreen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" style="vertical-align:middle">
+                            <path d="M3 11V3H11M21 3H29V11 M29 21V29H21 M11 29H3V21" />
+                        </svg>
+                    </button>
+                </p>
+            </div>
+        </div>
     </div>
 
     <!-- Unity Container -->
